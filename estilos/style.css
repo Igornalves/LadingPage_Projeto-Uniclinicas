@@ -22,13 +22,13 @@
   background-color: #f5f5dc; 
 }
 .caixa2{
-    display:flexbox;
-    max-width: 800px;
-    margin: 0;
-    padding: 60px 30px;
+    display: flex;
+    margin: 30px;
     text-align: left;
+    justify-content: space-between;
+    align-items: center;
     gap: 40px;
-
+    background-color: beige;
 }
 h2{
     font-size: 2rem;
@@ -54,7 +54,8 @@ p {
   cursor: pointer;
 }
 #img{
-    width: 300px;
+    border: 2px;
+    border-color: red;
 }
 
 
