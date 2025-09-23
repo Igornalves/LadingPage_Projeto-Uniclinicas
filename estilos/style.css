@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+}
+.container {
+    margin: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #edcf34;
+    display: flexbox;
+    
+}
+#logo{
+    width: 10%;
+   margin: 20px;
+   margin-right: 10%;
+}
+.caixa1{
+    display: flex;
+  justify-content: space-between; /* distribui os itens */
+  align-items: center;            /* alinha verticalmente */
+  padding: 20px;
+  background-color: #f5f5dc; 
+}
+.caixa2{
+    display:flexbox;
+    max-width: 800px;
+    margin: 0;
+    padding: 60px 30px;
+    text-align: left;
+    gap: 40px;
+
+}
+h2{
+    font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  line-height: 1.4;
+
+}
+p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+.button-acessar {
+  display: inline-block;
+  background-color: #ffffff;
+  color: #002147;
+  padding: 12px 30px;
+  border-radius: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+#img{
+    width: 300px;
+}
+
+
+
