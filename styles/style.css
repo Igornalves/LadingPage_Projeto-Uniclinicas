@@ -17,6 +17,10 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'Inter-Regular';
+  src: url(../assets/fonts/Inter_18pt-Regular.ttf) format('truetype');
+}
 
 
 
@@ -29,26 +33,6 @@ body{
     box-sizing: border-box;
 }
 
-.menu-and-navbar{
-   background-color: #edcf34;
-}
-
-#logo{
-    width: 10%;
-   margin: 20px;
-   margin-right: 10%;
-}
-
-.menu{
-    display: flex;
-    padding-left: 100px;
-    padding-right: 100px;
-    text-align: left;
-    justify-content: space-between;
-    align-items: center;
-    gap: 40px;
-
-}
 h1{
   font-size: 2rem;
   margin-bottom: 20px;
@@ -80,19 +64,17 @@ p {
   cursor: pointer;
   margin: none;
 }
-#img{
-    border: 2px;
-    border-color: red;
-}
-/*Classe da div que tem o titulo "saiba como podemos ajuda-los"*/
-.caixa3{
-  background-color: antiquewhite;
-  padding: 20px;
+ 
+.soluções{
+  background-color: #fff9dd;
+  padding: 50px;
   align-items: baseline;
 }
-.caixa3 h2{
-  background-color: aqua;
+.soluções h2{
   text-align: center;
+  font-family: 'Inter-Bold';
+  color: #002b7f;
+  font-size: 40px;
 }
 .balões{
   display: flex;
@@ -102,9 +84,31 @@ p {
 .balão{
   display: block;
   border: 2px solid;
-  border-color: #002147;
+  border-color: #ffea8e;
+  background-color: white;
   margin: 20px;
   padding: 20px;
+  width: 401px;
+  height: 200px;
+
+}
+.balão img{
+  width: 40px;
+  height: 40px;
+  padding: 0%;
+}
+.balão h3{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: 'Inter-Regular';
+  font-size: 25px;
+}
+.balão p{
+  font-family: 'Inter-Regular';
+  font-size: 18px;
+  text-align: justify;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .caixa4 h2{
   background-color: aqua;

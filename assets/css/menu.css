@@ -1,0 +1,19 @@
+.menu-and-navbar{
+   background-color: #edcf34;
+}
+
+#logo{
+    width: 10%;
+   margin: 20px;
+   margin-right: 10%;
+}
+
+.menu{
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: left;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
