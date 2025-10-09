@@ -51,85 +51,8 @@ p {
   margin-bottom: 40px;
   color: #002b7f;
 }
-.button-acessar {
-  display: inline-block;
-  font-size: 20px;
-  background-color: #ffffff;
-  color: #002b7f;
-  padding: 10px 80px;
-  border-radius: 30px;
-  font-weight: bold;
-  text-decoration: none;
-  border: none;
-  cursor: pointer;
-  margin: none;
-}
- 
-.soluções{
-  background-color: #fff9dd;
-  padding: 50px;
-  align-items: baseline;
-}
-.soluções h2{
-  text-align: center;
-  font-family: 'Inter-Bold';
-  color: #002b7f;
-  font-size: 40px;
-}
-.balões{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.balão{
-  display: block;
-  border: 2px solid;
-  border-color: #ffea8e;
-  background-color: white;
-  margin: 20px;
-  padding: 20px;
-  width: 401px;
-  height: 200px;
 
-}
-.balão img{
-  width: 40px;
-  height: 40px;
-  padding: 0%;
-}
-.balão h3{
-  margin-top: 10px;
-  margin-bottom: 10px;
-  font-family: 'Inter-Regular';
-  font-size: 25px;
-}
-.balão p{
-  font-family: 'Inter-Regular';
-  font-size: 18px;
-  text-align: justify;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-.caixa4 h2{
-  background-color: aqua;
-  text-align: center;
-}
-/*class da div com titulo 'principais beneficios'*/
-.caixa4 img{
-  width: 450px;
-  height: 300px;
-  margin: 20px;
-  border-radius: 30px;
 
-}
-.caixinha{
-    display: flex;
-    margin: 30px;
-    text-align: left;
-    justify-content: space-between;
-    align-items: center;
-}
-/*class do titulo 'serviços oferecidos',*/
 .caixa5{
   background-color: #f9f9f9;
   align-items: center;

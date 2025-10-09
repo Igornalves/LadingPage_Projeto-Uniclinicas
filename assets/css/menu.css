@@ -17,3 +17,17 @@
     align-items: center;
     gap: 40px;
 }
+
+.button-acessar {
+  display: inline-block;
+  font-size: 20px;
+  background-color: #ffffff;
+  color: #002b7f;
+  padding: 10px 80px;
+  border-radius: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  margin: none;
+}

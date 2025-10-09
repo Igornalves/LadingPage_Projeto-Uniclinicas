@@ -1,0 +1,41 @@
+.balão p{
+  font-family: 'Inter-Regular';
+  font-size: 18px;
+  text-align: justify;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.benefícios{
+  background-color: #fff9dd;
+  padding: 1px;
+  align-items: baseline;
+}
+.caixa4 h2{
+  background-color: #fff9dd;
+  text-align: center;
+}
+/*class da div com titulo 'principais beneficios'*/
+.caixa4 img{
+  width: 500px;
+  height: 300px;
+  margin: 20px;
+  margin-right: 100px;
+  border-radius: 30px;
+  background-color: #fff9dd;
+
+}
+.caixinha{
+    display: flex;
+    text-align: left;
+    justify-content: space-between; 
+    align-items: center;
+    background-color: #fff9dd;
+    margin: 0px;
+}
+
+.linha-personalizada {
+  border: none;
+  height: 3px;
+  background: black;
+  margin: 40px 0;
+}
