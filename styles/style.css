@@ -51,7 +51,13 @@ p {
   margin-bottom: 40px;
   color: #002b7f;
 }
-
+.balão p{
+  font-family: 'Inter-Regular';
+  font-size: 18px;
+  text-align: justify;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 
 .caixa5{
   background-color: #f9f9f9;
