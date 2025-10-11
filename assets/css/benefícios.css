@@ -31,11 +31,21 @@
     align-items: center;
     background-color: #fff9dd;
     margin: 0px;
+    padding-left: 70px;
 }
+
 
 .linha-personalizada {
   border: none;
-  height: 3px;
+  border-radius: px;
+  height: 2px;
   background: black;
-  margin: 40px 0;
+  margin: auto;
+  border: 0px;
+  width: 1300px;
+}
+.lista-personalizada h2 {
+  color: #edcf34;
+  font-size: 40px;
+  font-family: 'Inter-Bold';
 }
