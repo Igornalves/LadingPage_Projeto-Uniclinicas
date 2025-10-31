@@ -53,30 +53,12 @@
   position: relative;
   display: inline-block;
 }
-
 .lista-personalizada li::before {
-  content: "";
+  content: "✓"; 
+  color: #edcf34; 
   position: absolute;
-  top: 0;
-  left: -50px;
-  transform: translateY(-50%);
-  width: 40px;
-  height: 40px;
-  background-image: url('../images/quatro\ \(1\).png');
-  background-repeat: no-repeat;
-  background-position: left center;
-  background-size: contain;
-}
-  
-
-.lista-personalizada li:nth-child(2)::before {
-  background-image: url('../images/um.png');
-}
-
-.lista-personalizada li:nth-child(3)::before {
-  background-image: url('../images/dois\ \(1\).png');
-}
-
-.lista-personalizada li:nth-child(4)::before {
-  background-image: url('../images/tres\ \(1\).png');
+  left: -20px; ;
+  top: 12px;
+  font-size: 20px;
+  margin-right: 20px;
 }

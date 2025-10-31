@@ -1,0 +1,26 @@
+.caixa3 h2{
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #fff;
+    font-family: 'Inter-Regular';
+    color: #002b7f ;
+}
+
+.bsoluçoes{
+display: flex;
+justify-content: space-around;
+}
+
+.balãosol img{
+    width: 250px;
+    height: 300px;
+    padding: 0%;
+    background-color: #edcf34;
+    border-radius: 30px;
+    margin: 20px;
+    border: #002b7f 4px solid;
+}
