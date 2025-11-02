@@ -1,0 +1,58 @@
+.CalltoAction {
+    background-color: #ffffff;
+    padding: 40px 20px;
+}
+.CalltoAction h2 {
+    font-size: 36px;
+    color: #000000;
+    font-family: 'Inter-Bold', sans-serif;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.CalltoAction .colorname {
+    color:#edcf34;
+}
+
+.CalltoAction .lista{
+    font-size: 18px;
+    font-family: 'Inter-Regular', sans-serif;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 319px 0 319px;
+    text-align: justify;
+    padding: 20px;
+
+}
+
+.CalltoAction .lista ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+    margin-bottom: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.CalltoAction .lista ol li {
+  list-style: decimal outside none;
+  font-size: 35px; 
+}
+.CalltoAction .lista li::marker {
+    color: #edcf34;
+    font-size: 60px;
+}
+
+.CalltoAction .button-acessar {
+    display: block;
+    margin: 0 auto;
+    padding: 15px 30px;
+    font-size: 30px;
+    color: #002b7f;
+    background-color: #edcf34;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: background-color 0.3s ease;
+    box-shadow: #797979 3px 4px ;
+}
