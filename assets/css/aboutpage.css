@@ -1,0 +1,41 @@
+.Aboutpage{
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    margin-top: 40px;
+    background-color: beige;
+    height: 800px;
+
+}
+.Aboutpage img{
+  width: 1000px;
+  height: 600px;
+  margin-left: 100px;
+  border-radius: 30px;
+}
+
+.Aboutpage h4{
+    font-size: 20px;
+    color: #edcf34;
+    font-family: 'Inter-Bold', sans-serif;
+}
+
+.Aboutpage h2{
+    font-size: 40px;
+    color: #002672;
+    font-family: 'Inter-Bold', sans-serif;
+    margin-bottom: 20px;
+}
+
+.Aboutpagetext{
+    margin-right: 100px;
+    max-width: 500px;
+}
+.Aboutpage p{
+    font-size: 18px;
+    color: #001c55;
+    font-family: 'Inter-Regular', sans-serif;
+    line-height: 1.6;
+}

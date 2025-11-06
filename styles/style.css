@@ -52,22 +52,7 @@ p {
   color: #002b7f;
 }
 
-.caixa6{
-  display: flex;
-    margin: 30px;
-    text-align: left;
-    justify-content: space-between;
-    align-items: center;
-    gap: 40px;
-    background-color: beige;
 
-}
-.caixa6 img{
-  width: 450px;
-  height: 300px;
-  margin: 20px;
-  border-radius: 30px;
-}
 /*class da tela 'contatos'*/
 .caixa7{
    display: flex;
