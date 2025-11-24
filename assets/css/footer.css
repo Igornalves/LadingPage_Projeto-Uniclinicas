@@ -1,0 +1,15 @@
+    footer{
+    display: flex;
+    margin: 30px;
+    text-align: left;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    }
+
+    footer p{
+        font-family: "Jura-bold";
+        color: #002b7f;
+        font-size: 25px;
+        margin: 10px;
+    }

@@ -54,13 +54,4 @@ p {
 
 
 /*class da tela 'contatos'*/
-.caixa7{
-   display: flex;
-    margin: 30px;
-    text-align: left;
-    justify-content: space-between;
-    align-items: center;
-    gap: 40px;
-    background-color: beige;
-}
 
