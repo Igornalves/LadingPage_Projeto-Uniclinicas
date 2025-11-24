@@ -31,3 +31,9 @@
   cursor: pointer;
   margin: none;
 }
+
+.button-acessar a{
+  text-decoration: none;
+  color: #002b7f;
+  font-family: 'Jura-Bold'; 
+}
